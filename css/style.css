@@ -12,7 +12,7 @@ body {
 }
 
 .current {
-  color: #ff0090;
+  color: #ff0090 !important;
 }
 
 /********************styling first page with bootstrap starts here**************************************************************/
@@ -349,6 +349,9 @@ ul li a:hover {
   .Btn1, .Btn2 {
     font-size: 1.5em;
   }
+  #slideshow {
+    height: 1000px;
+  }
 }
 
 /**********************Styling second page with flexbox*****************************************************************************************/
@@ -668,6 +671,7 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  padding-top: 30px;
 }
 
 .form button {
