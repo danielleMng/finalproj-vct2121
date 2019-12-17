@@ -42,7 +42,7 @@ $(document).ready(function(){
       triggerElement: "#myportfolio",
       triggerHook: 'onLeave',
       duration: "100%",
-      offset:-200
+      offset:-500
     })
     .setPin('#myportfolio')
     .setTween(tl)
