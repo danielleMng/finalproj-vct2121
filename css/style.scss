@@ -211,6 +211,13 @@ ul li a:hover {
     color: white;
     font-family: "Montserrat";
 }
+#slideshow{
+    opacity:0;
+}
+#slideshow.fade-in{
+    opacity: 1;
+    transition: all 1s;
+}
 
 @media only screen and(max-width:992px) {
     #myjumbotron {

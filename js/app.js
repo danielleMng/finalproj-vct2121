@@ -12,7 +12,7 @@ $(document).ready(function(){
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
-    $("#slideshow").hide();
+   
     //adding scrollmagic
     var controller= new ScrollMagic.Controller();
     var scene= new ScrollMagic.Scene({
@@ -20,7 +20,12 @@ $(document).ready(function(){
     })
     .setClassToggle('#slideshow','fade-in')
     .addTo(controller)
-   
+    var controller1= new ScrollMagic.Controller();
+    var scene1= new ScrollMagic.Scene({
+      triggerElement:'.contact-section'
+    })
+    .setClassToggle('.contact-section','fade-in')
+    .addTo(controller1)
 
     
 })

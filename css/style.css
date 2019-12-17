@@ -186,6 +186,16 @@ ul li a:hover {
   font-family: "Montserrat";
 }
 
+#slideshow {
+  opacity: 0;
+}
+
+#slideshow.fade-in {
+  opacity: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 @media only screen and (max-width: 992px) {
   #myjumbotron {
     margin: 80px;
