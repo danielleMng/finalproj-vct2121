@@ -12,7 +12,14 @@ $(document).ready(function(){
     $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
+    $("#slideshow").hide();
     //adding scrollmagic
+    var controller= new ScrollMagic.Controller();
+    var scene= new ScrollMagic.Scene({
+      triggerElement:'#slideshow'
+    })
+    .setClassToggle('#slideshow','fade-in')
+    .addTo(controller)
    
 
     
