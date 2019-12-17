@@ -457,6 +457,11 @@ ul li a:hover {
     padding: 30px 0 50px 0;
     text-align: center;
     width: 100%;
+    opacity: 0;
+}
+.contact-section.fade-in{
+    opacity: 1;
+    transition: all 1s;
 }
 
 h3 {
@@ -896,7 +901,9 @@ article img {
     #myportfolio {
         margin: 0 auto;
         width:400px;
-    }
+       
 
+    }
+   
 }
 //***************************Css grid page ends here**************************************************************//

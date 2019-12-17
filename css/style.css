@@ -382,6 +382,13 @@ ul li a:hover {
   padding: 30px 0 50px 0;
   text-align: center;
   width: 100%;
+  opacity: 0;
+}
+
+.contact-section.fade-in {
+  opacity: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 h3 {
